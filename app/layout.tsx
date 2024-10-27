@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 
 import "@/globals.css";
 import { siteconfig } from "@/config/site";
+import { cn } from "@/lib/utils";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,6 +22,14 @@ export const metadata: Metadata = {
       href: "/logo.svg",
     },
   ],
+  applicationName: siteconfig.name,
+  authors: [
+    {
+      name: "Adharsh",
+    },
+  ],
+  creator: "Adharsh",
+  publisher: "Adharsh",
 };
 
 export default function RootLayout({
@@ -30,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={cn("h-full w-full", poppins)}>{children}</body>
     </html>
   );
 }
