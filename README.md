@@ -11,7 +11,7 @@ CommerceCraft is a comprehensive ecommerce solution that provides everything you
 ## Acknowledgements
 
  - [Nextjs](https://nextjs.org)
- - [Authjs](https://authjs.dev)
+ - [Convex-Auth]((https://labs.convex.dev/auth))
  - [shadcn](https://ui.shadcn.com)
  - [ ]  Others
 
