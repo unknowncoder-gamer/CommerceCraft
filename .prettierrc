@@ -1,0 +1,7 @@
+{
+  "tailwindPreserveWhitespace": false,
+  "tailwindPreserveDuplicates": false,
+  "tailwindFunctions": ["clsx"],
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"]
+}
